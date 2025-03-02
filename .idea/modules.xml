@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Taller_1_recursividad.iml" filepath="$PROJECT_DIR$/.idea/modules/Taller_1_recursividad.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Taller_1_recursividad.Taller_1_recursividad-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Taller_1_recursividad.Taller_1_recursividad-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Taller_1_recursividad-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Taller_1_recursividad-build.iml" />
     </modules>
   </component>
 </project>
