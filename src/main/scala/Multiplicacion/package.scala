@@ -44,7 +44,7 @@ package object Multiplicacion {
         val p3: Int = splitMuliplyR(x, w)
         val p4: Int = splitMuliplyR(y, w)
 
-        p1 * Math.pow(10, 2 * m).toInt + (p2 + p3) * pow + p4
+        p1 * math.pow(10, 2 * m).toInt + (p2 + p3) * pow + p4
     }
     splitMuliplyR(a:Int,b:Int)
   }
@@ -73,11 +73,13 @@ package object Multiplicacion {
 
         val p1: Int = FastAlgorithmR(x, z)
         val p2: Int = FastAlgorithmR(y, w)
-        val p3: Int = FastAlgorithmR(x + y, z + w) - p1 - p2
+        val p3: Int = p1 + p2 - FastAlgorithmR(x-y,z-w)
 
-        p1 * Math.pow(10, 2 * m).toInt + p3 * pow + p2
+        p1 * math.pow(10, 2 * m).toInt + p3 * pow + p2
     }
 
     FastAlgorithmR(a: Int, b: Int)
   }
+
 }
+
