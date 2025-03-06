@@ -5,7 +5,7 @@ package object Multiplicacion {
         if (a%2 != 0) b + PeasantAlgorithmRecursiva(a / 2, b + b)
         else PeasantAlgorithmRecursiva(a / 2, b + b)
     }
-    PeasantAlgorithmRecursiva(a:Int, b:Int)
+    PeasantAlgorithmRecursiva(a, b)
   }
 
   def PeasantAlgorithmIt (x:Int, y:Int): Int = {
@@ -46,7 +46,7 @@ package object Multiplicacion {
 
         p1 * math.pow(10, 2 * m).toInt + (p2 + p3) * pow + p4
     }
-    splitMuliplyR(a:Int,b:Int)
+    splitMuliplyR(a,b)
   }
 
   def FastAlgorithm(a: Int, b: Int): Int = {
@@ -78,7 +78,7 @@ package object Multiplicacion {
         p1 * math.pow(10, 2 * m).toInt + p3 * pow + p2
     }
 
-    FastAlgorithmR(a: Int, b: Int)
+    FastAlgorithmR(a, b)
   }
 
 }
